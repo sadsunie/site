@@ -44,7 +44,19 @@
 
         <section class="jumbotron text-center logo"></section>
 
-        <h1 align="center">Ошибка авторизации. Пользователь не найден.<h1>
+        <div class="container">
+            <form action="result.php" class="d-flex justify-content-center">
+                <input type="text" name="x1">
+                <select name="operation">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="text" name="x2">
+                <input type="submit" value="Посчитать">
+            </form>
+        </div>
         
     </main>
 

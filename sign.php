@@ -33,6 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="account.php">аккаунт</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="calculator.php">калькулятор</a>
+                </li>
             </ul>
         </div>
     </nav>

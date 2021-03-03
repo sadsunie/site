@@ -1,3 +1,7 @@
+<?php
+$result = require __DIR__ . '/calc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -44,7 +48,11 @@
 
         <section class="jumbotron text-center logo"></section>
 
-        <h1 align="center">Ошибка авторизации. Пользователь не найден.<h1>
+        <div class="container ">
+        <b>Результат вычислений: </b>
+        <br>
+        <?= $result ?>
+        </div>
         
     </main>
 
