@@ -15,20 +15,23 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand text-uppercase" href="index.html">Главная</a>
+                <a class="navbar-brand text-uppercase" href="index.php">Главная</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="dishes.html">блюда</a>
+                    <a class="nav-link text-uppercase" href="dishes.php">блюда</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="menu.html">меню</a>
+                    <a class="nav-link text-uppercase" href="menu.php">меню</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="#">журнал заказов</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="#">продукты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase" href="account.php">аккаунт</a>
                 </li>
             </ul>
         </div>
@@ -113,7 +116,7 @@
 
     </main>
 
-    <footer class="text-muted color-grey">
+    <footer class="text-muted color-grey mt-5">
         <div class="container">
             <p class="float-right">
                 <a class="text-decoration-none color-black" href="#">Наверх</a>
