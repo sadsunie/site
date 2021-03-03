@@ -30,5 +30,5 @@
 	$mysql->query("INSERT INTO `food` (`Supplier`, `Name`, `Type`, `Quantity`, `Date`) VALUES('$Supplier', '$Name', '$Type', '$Quantity', '$Date')");
 	$mysql->close();
 	
-	header('Location: /orders.php');
+	header('Location: /site/orders.php');
 ?>
