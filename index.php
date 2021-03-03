@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand text-uppercase" href="index.php">Главная</a>
@@ -25,10 +25,10 @@
                     <a class="nav-link text-uppercase" href="menu.php">меню</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">журнал заказов</a>
+                    <a class="nav-link text-uppercase" href="orders.php">журнал заказов</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">продукты</a>
+                    <a class="nav-link text-uppercase" href="food.php">продукты</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="account.php">аккаунт</a>

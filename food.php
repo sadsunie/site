@@ -44,7 +44,20 @@
 
         <section class="jumbotron text-center logo"></section>
 
-        <h1 align="center">Ошибка авторизации. Пользователь не найден.<h1>
+        <div class="container">
+        <table class="favtable" width="100%">
+                        <tr>
+                            <th>Поставщик</th>
+                            <th>Название</th>
+                            <th>Вид</th>
+                            <th>Количество</th>
+                            <th>Дата</th>
+                        </tr>
+                        <?php
+                    include_once ('bdfood.php');
+                ?>
+                    </table>
+        </div>
         
     </main>
 

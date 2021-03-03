@@ -36,10 +36,10 @@ header('Location: /site/sign.php');
                     <a class="nav-link text-uppercase" href="menu.php">меню</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">журнал заказов</a>
+                    <a class="nav-link text-uppercase" href="orders.php">журнал заказов</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">продукты</a>
+                    <a class="nav-link text-uppercase" href="food.php">продукты</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="account.php">аккаунт</a>
